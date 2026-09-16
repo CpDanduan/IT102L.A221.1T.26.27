@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2026-09-16 15:26:35",
+    "transaction_id": "TX00001",
+    "item_id": "UK0002",
+    "product": "Oversized Graphic Shirt",
+    "category": "Shirt",
+    "quantity": 1,
+    "unit_price": 250.0,
+    "total": 250.0,
+    "customer": "Walk-in",
+    "payment": "Cash"
+  }
+]

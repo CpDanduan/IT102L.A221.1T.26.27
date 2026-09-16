@@ -22,7 +22,7 @@ A Streamlit prototype for the **Thrift Store (Ukay-Ukay) Manual Transaction Syst
 
 ## Project structure
 
-- `app.py` — Streamlit interface
+- `danduan_ukayclick_app.py` — Streamlit interface
 - `ukayclick_auth.py` — authentication
 - `ukayclick_storage.py` — JSON data storage
 - `ukayclick_inventory.py` — inventory operations

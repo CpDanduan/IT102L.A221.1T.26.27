@@ -1,0 +1,26 @@
+[
+  {
+    "item_id": "UK0001",
+    "name": "Vintage Denim Jacket",
+    "category": "Jacket",
+    "price": 450.0,
+    "quantity": 5,
+    "cost": 180.0
+  },
+  {
+    "item_id": "UK0002",
+    "name": "Oversized Graphic Shirt",
+    "category": "Shirt",
+    "price": 250.0,
+    "quantity": 7,
+    "cost": 90.0
+  },
+  {
+    "item_id": "UK0003",
+    "name": "Pleated Skirt",
+    "category": "Other",
+    "price": 300.0,
+    "quantity": 3,
+    "cost": 120.0
+  }
+]

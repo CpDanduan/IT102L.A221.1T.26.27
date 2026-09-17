@@ -10,6 +10,7 @@ Product:     {sale['product']}
 Category:    {sale['category']}
 Quantity:    {sale['quantity']}
 Unit Price:  ₱{sale['unit_price']:,.2f}
+Change:      ₱{sale['change']:,.2f}
 TOTAL:       ₱{sale['total']:,.2f}
 
 Payment:     {sale['payment']}

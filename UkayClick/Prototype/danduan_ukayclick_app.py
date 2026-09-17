@@ -90,13 +90,14 @@ def sales_page():
     item = choices[selected]
     quantity = st.number_input("Quantity", min_value=1, max_value=item["quantity"], value=1)
     customer = st.text_input("Customer name (optional)")
+    customer_payment = st.number_input("Cash received", min_value=0.0, step=10.0, value=0.0)
     payment = st.selectbox("Payment Method", ["Cash", "GCash", "Other"])
 
     total = item["price"] * quantity
     st.metric("Total", money(total))
 
     if st.button("✓ Complete Sale", use_container_width=True):
-        ok, result = process_sale(item["item_id"], quantity, customer, payment)
+        ok, result = process_sale(item["item_id"], quantity, customer, payment, customer_payment)
         if ok:
             st.session_state.last_receipt = result
             st.success("Sale recorded and inventory updated.")
